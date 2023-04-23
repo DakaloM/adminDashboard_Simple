@@ -1,0 +1,38 @@
+.login {
+    flex: 4 !important;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+    h1{
+
+    }
+    .loginForm {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+        input {
+            height: 20px;
+            padding: 5px;
+            margin-bottom: 20px;
+            outline: none;
+        }
+
+        button{
+            width: 100px;
+            margin: auto;
+            padding: 7px 10px;
+            border: none;
+            border-radius: 10px;
+            background-color: darkblue;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+}
